@@ -36,7 +36,7 @@ function init() {
       "white",
       150,
       context,
-      "../img/HONOR_Logo.png",
+      "img/HONOR_Logo.png",
       0.7,
     );
   } else {

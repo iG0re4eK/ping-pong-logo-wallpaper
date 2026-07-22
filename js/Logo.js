@@ -85,8 +85,6 @@ export class Logo {
     this.x += this.speedX * normalizedDelta;
     this.y += this.speedY * normalizedDelta;
 
-    console.log(this.speedX, this.speedY, normalizedDelta);
-
     if (this.x + this.width / 2 >= this.maxX) {
       this.x = this.maxX - this.width / 2;
       this.speedX = -this.speedX;
